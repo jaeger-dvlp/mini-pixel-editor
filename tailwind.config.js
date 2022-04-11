@@ -5,6 +5,12 @@ module.exports = {
       fontFamily: {
         pop: 'Poppins',
       },
+      colors: {
+        'brand-dark': '#171717',
+        'brand-light': '#444444',
+        'brand-red': '#DA0037',
+        'brand-white': '#EDEDED',
+      },
     },
   },
   plugins: [],
