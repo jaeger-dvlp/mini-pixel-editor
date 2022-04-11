@@ -1,3 +1,37 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.animate-fade-in {
+  animation-name: animateFadeIn;
+  animation-duration: 0.4s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes animateFadeIn {
+  from {
+    transform: scale(0.7);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+.animate-fade-right {
+  animation-name: animateFadeRight;
+  animation-duration: 0.4s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes animateFadeRight {
+  from {
+    transform: translateX(-30px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0px);
+    opacity: 1;
+  }
+}
