@@ -67,7 +67,7 @@ export default function Editor() {
             color={pixelColor.hex || pixelColor}
             border={pixelBorder}
           />
-          <div className="flex justify-start gap-1">
+          <div className=" hidden justify-start gap-1">
             <input
               type="checkbox"
               className="rounded-xl checked:!bg-red-500 bg-zinc-400 border-none"
